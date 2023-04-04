@@ -62,6 +62,7 @@ function App() {
         color="white"
       >
         <Card
+          color="white"
           backgroundColor="#252429"
           padding={4}
           width="25rem"
