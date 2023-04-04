@@ -1,3 +1,13 @@
+Initially:
+
+    {
+        "title": "Kitchen Decor",
+        "description": "When you think of interior design for kitchen, there are certain aspects that immediately come to your mind. The layout of the kitchen — if it should be an open or a closed kitchen.",
+        "imageUrl": "https://cdn.pixabay.com/photo/2017/03/22/17/39/kitchen-2165756_1280.jpg",
+        "price": "INR 45000",
+        "location": "Mumbai"
+    }
+
 Sample Response:
 
     {
