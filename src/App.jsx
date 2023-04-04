@@ -11,9 +11,9 @@ import {
   CardHeader,
 } from "@chakra-ui/react";
 import axios from "axios";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
-const baseURL = "http://localhost:5000";
+const baseURL = "https://plain-colt-bikini.cyclic.app";
 
 function App() {
   const data = {

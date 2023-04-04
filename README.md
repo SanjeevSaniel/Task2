@@ -1,4 +1,5 @@
 Sample Response:
+
     {
         "title": "Living room Sofa",
         "description": "This sofa is perfect for modern tropical spaces, baroque inspired spaces, earthy toned spaces and   for people who love a chic design with a sprinkle of vintage design.",
@@ -6,3 +7,8 @@ Sample Response:
         "price": "INR 65000",
         "location": "New Delhi"
     }
+
+
+Backedn Repo URL: https://github.com/SanjeevSaniel/Task2-backend
+
+App Host URL: 
