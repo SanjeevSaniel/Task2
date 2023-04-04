@@ -8,6 +8,6 @@ Sample Response:
         "location": "New Delhi"
     }
 
-Backedn Repo URL: https://github.com/SanjeevSaniel/Task2-backend
+Backend Repo URL: https://github.com/SanjeevSaniel/Task2-backend
 
 App Host URL: https://sanjeevsaniel.github.io/Task2/
