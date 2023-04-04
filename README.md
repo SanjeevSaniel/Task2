@@ -21,3 +21,4 @@ Sample Response:
 Backend Repo URL: https://github.com/SanjeevSaniel/Task2-backend
 
 App Host URL: https://sanjeevsaniel.github.io/Task2/
+API Endpoint: https://plain-colt-bikini.cyclic.app/api/data
