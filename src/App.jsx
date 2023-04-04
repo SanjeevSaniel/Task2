@@ -26,8 +26,6 @@ function App() {
     location: "New Delhi",
   };
 
-  const [sendRequest, setSendRequest] = useState(false);
-
   const [title, setTitle] = useState("Kitchen Decor");
   const [imageUrl, setImageUrl] = useState(
     "https://cdn.pixabay.com/photo/2017/03/22/17/39/kitchen-2165756_1280.jpg"
