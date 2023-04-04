@@ -16,7 +16,7 @@ import { useState } from "react";
 const baseURL = "https://plain-colt-bikini.cyclic.app";
 
 function App() {
-  const data = {
+  const shoppingData = {
     title: "Living room Sofa",
     description:
       "This sofa is perfect for modern tropical spaces, baroque inspired spaces, earthy toned spaces and for people who love a chic design with a sprinkle of vintage design.",
@@ -37,15 +37,18 @@ function App() {
   const [location, setLocation] = useState("Mumbai");
 
   const fetchData = async () => {
-    const result = await axios
-      .post(`${baseURL}/api/data`, data)
+    // First update the UI and then post the data to the databse.
+    setTitle(shoppingData.title);
+    setImageUrl(shoppingData.imageUrl);
+    setDescription(shoppingData.description);
+    setPrice(shoppingData.price);
+    setLocation(shoppingData.location);
+
+    // Post data to the database
+    await axios
+      .post(`${baseURL}/api/data`, shoppingData)
       .then(({ data }) => {
-        // console.log(response.data);
-        setTitle(data.title);
-        setImageUrl(data.imageUrl);
-        setDescription(data.description);
-        setPrice(data.price);
-        setLocation(data.location);
+        console.log("Response", data);
       })
       .catch((error) => console.error(error.message));
   };
